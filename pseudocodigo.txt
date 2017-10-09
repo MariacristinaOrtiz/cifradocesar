@@ -1,0 +1,24 @@
+PSEUDOCODIGO DEL CIFRADO CESAR
+CIFRADO:
+PROGRAMA: Encriptado (según el algoritmo del cifrado cesar).
+ENTRADAS: “frase” (no contener espacios ni números), 33 espacios hacia la DERECHA.
+SALIDA:”frase encriptada”.
+.MOSTRAR “ingresa una frase”;
+.LEER la frase;
+.PARA  i = 0 hasta la longitud de la frase con INCREMENTOS de +1
+    - EXTRAE la equivalencia ASCII de cada letra de la frase;
+    - CALCULA Letra encriptada =  Equiv.ASCII((Equiva. ASCCI de la letra -65 +(n=33)%26)+65)
+FIN PARA;
+.RETORNA “frase encriptada”
+FIN PROGRAMA.
+DESCIFRADO:
+PROGRAMA: Desencriptado de la “frase encriptada”.
+ENTRADAS: “frase encriptada”, 33 espacios hacia la IZQUIERDA.
+.ESCRIBIR “frase encriptada”;
+.LEER “frase encriptada”;
+.PARA  i = 0 hasta la longitud de “frase encriptada” con INCREMENTOS de +1
+    - EXTRAE la equivalencia ASCII de cada letra de “frase encriptada”;
+    - CALCULA Letra desencriptada =  Equiv.ASCII((Equiva. ASCCI de la letra -65 –(n=33)+26)+65)
+FIN PARA;
+.RETORNA “frase desencriptada”
+FIN PROGRAMA.
