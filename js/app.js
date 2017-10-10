@@ -1,3 +1,6 @@
+/*Crea una web que pida, por medio de un prompt(), una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de Cifrado
+ César con el parámetro de desplazamiento de 33 espacios hacia la derecha*/
+ // creando la funcion para cifrar.
 function cipher (string, n){
   // condicionamos para que no se pueda ingresar numeros ni campos vacios.
   if((parseInt(string) >= 0) || (parseInt(string) < 0)){
@@ -28,10 +31,10 @@ function cipher (string, n){
   console.log (stringCipher);
 } while(t;*/
  // Colocamos la frase encriptada en nuestro html
- document.write("frase encriptada" +  stringCipher);
+ document.write("Frase encriptada "  +   stringCipher);
 
  // creando la fuction decipher para desencriptar
- function decipher (stringdeCipher,n){
+ function decipher (stringCipher,n){
    if(stringCipher === undefined){
      alert("ADVERTENCIA!! Para descifrar una frase encriptada no ingrese numeros ni campos vacios");
    } else {
@@ -54,4 +57,4 @@ function cipher (string, n){
   // Llamamos a la funcion
  var stringDecipher = decipher (stringCipher,33);
  // Colocamos la frase desencriptada en nuestro html
- document.write("frase desencriptada" +  stringDeCipher);
+ document.write("Frase desencriptada  "  +   stringDeCipher);
