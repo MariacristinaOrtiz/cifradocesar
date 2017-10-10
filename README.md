@@ -1,6 +1,6 @@
 # CIFRADO CESAR
 ## ENUNCIADO
-- Crea una web que pida, por medio de un _prompt()_, una frase al usuario y devuelva el mismo mensaje "encriptado" según el _algoritmo de Cifrado César_ con el parámetro de desplazamiento de **_ 33 espacios hacia la derecha_**
+- Crea una web que pida, por medio de un _prompt()_, una frase al usuario y devuelva el mismo mensaje "encriptado" según el _algoritmo de Cifrado César_ con el parámetro de desplazamiento de **33 espacios hacia la derecha**
 
  Por ejemplo:
 
@@ -12,9 +12,7 @@
 - Crear un programa que **_encripte_** y **_desencripte_** una frase ingresada por el usuario, considerando que el usuario no puede ingresar campos vacios ni numeros.
 
 ### flujograma
- - Revisar el archivo Excel.xls **_flujograma cifrado cesar_** encontrada en la carpeta **_docs_**
-
- ![flujograma](assets/docs/flujograma cifrado cesar.xlsx)
+ - Revisar el archivo Excel.xls **_flujograma cifrado cesar_** encontrada en la carpeta **_docs_** .
 
 ### pseudocódigo
  - PSEUDOCODIGO DEL CIFRADO CESAR
