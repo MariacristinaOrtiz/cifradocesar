@@ -14,7 +14,7 @@
 ### flujograma
  - Revisar el archivo Excel.xls **_flujograma cifrado cesar_** encontrada en la carpeta **_docs_**
 
- [flujograma](assets/docs/flujograma cifrado cesar.xlsx)
+ ![flujograma](assets/docs/flujograma cifrado cesar.xlsx)
 
 ### pseudocódigo
  - PSEUDOCODIGO DEL CIFRADO CESAR
